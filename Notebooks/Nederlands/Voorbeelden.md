@@ -45,13 +45,32 @@ CREATE TABLE table_name (
   PRIMARY KEY(column_list)
 );
 
--- Example
+-- Voorbeeld 1
+
+CREATE DATABASE intecdb;
+USE intecdb;
+
 CREATE TABLE student (
   student_id INT,
   name VARCHAR(20),
   major VARCHAR(20),
   PRIMARY KEY(student_id)
 );
+
+CREATE TABLE elon_musk (
+  car_id INT,
+  name VARCHAR(20),
+  major VARCHAR(20),
+  PRIMARY KEY(car_id)
+);
+
+CREATE TABLE jeff_bezos (
+  space_id INT,
+  name VARCHAR(20),
+  major VARCHAR(20),
+  PRIMARY KEY(space_id)
+);
+
 ```
 
 ## Uitvoertabellen
